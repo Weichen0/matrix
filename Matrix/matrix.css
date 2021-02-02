@@ -1,0 +1,163 @@
+
+body {  background-color:#000000;
+        color:#FFFFFF;
+	min-width:1920px; }
+
+#container { 	position:fixed;
+		width:100%;
+		margin-top:-8px;
+		top:0;
+		left:0;
+		z-index:9; }
+#header { }
+
+nav {	position:absolute; 
+	left:1000px;
+	top:90px;   }
+
+nav ul li {display: inline-block;}
+
+nav a:hover, #plus:hover,#minus:hover,#atc:hover {opacity:0.5;}
+
+bundle { display:block; 
+	 margin-left:auto; 
+	 margin-right:auto; 
+	 margin-top:180px; } 	
+
+arena img { display:block;
+	    margin-left:auto; 
+	    margin-right:auto; 
+            opacity:0.8; 
+	    width:1920px; 
+	    height:700x; }
+
+arena h1 { position: absolute;
+	   top:800px;
+	   left: 50%;
+	   transform: translate(-50%, -50%);
+	   font-color:#FFFFFF;
+	   font-weight:50; 
+	   font-family: 'Century Gothic';
+           font-size: 50px; }
+
+abtus { display:block; 
+	margin-left:auto; 
+	margin-right:auto; 
+	margin-top:180px; 
+	width:30%; }
+
+.row {display:inline-block; }
+
+.product { display:block; 
+	   margin-top:180px; 
+	   margin-left:auto; 
+	   margin-right:auto;
+	   width:65%; }
+
+.imgg { position:relative;
+	display:inline-block;
+	width:400px;
+	height:400px; }
+
+.imgg2 { position: absolute;
+	 bottom: 0;
+	 left: 100%;
+	 right: 0;
+  	 opacity:1;
+	 overflow: hidden;
+	 width: 0;
+	 height: 100%;
+	 transition: 1s ease; }
+
+.imgg:hover .imgg2 { width:100%; 
+		    left:0; }
+
+.contactus { background-image: url("matrixbg.png");
+	     background-position: center; 
+	     background-repeat: no-repeat; 
+	     background-size: cover; 
+             position: relative;
+	     min-height:500px;
+	     background-color:rgba(0, 0, 0, 0.5); }
+
+table { position: relative; 
+	margin-left:auto; 
+	margin-right:auto; 
+	max-width: 500px;
+	background-color:rgba(0, 0, 0, 0.6);
+	height:650px; }
+
+table,.btn { font-color:#FFFFFF;
+	     font-weight:50; 
+	     font-family: 'Century Gothic';
+	     font-size: 20px; }
+
+form h1 {font-color:#FFFFFF;
+	 font-weight:50; 
+	 font-family: 'Century Gothic';
+	 font-size: 50px; 
+	 text-align:justify; } 
+
+.btn { background-color:  #0fff00;
+       color::#000000;
+       padding: 16px 20px;
+       border:none;
+       cursor: pointer; }
+
+.ims { display:none;}
+
+.prodt { display:block;
+	 margin-top:180px; }
+
+.pro {display:block;
+      margin-top:180px;
+      margin-left:auto; 
+      margin-right:auto;
+      width:82.5%; }
+
+.pro h1 { font-color:#FFFFFF;
+          font-weight:50; 
+          font-family: 'Century Gothic';
+          font-size: 50px; text-align:center; }
+
+.items { position:relative; } 
+
+#iimg { height:500px; 
+	width:450px;
+	padding:0px;
+	float:left;
+	opacity:0.8;
+	padding-right:10px; }
+
+.gitems { position:relative;
+	  display:inline-block; 
+	  border-style:solid; 
+	  border-width:1px; 
+	  border-color:#0fff00;
+	  width:1500px;height:500px; }
+	
+.gtext { font-color:#FFFFFF;
+	 font-weight:20; 
+	 font-family: 'Century Gothic';
+	 font-size: 20px; }
+
+#plus,#minus{position:relative;
+	     height:40px;
+	     width:40px;
+	     top:8px;}
+
+#count { position:relative;
+	 height:30px;
+	 width:30px;
+	 top:-6px; }
+
+.abtn { position:relative; 
+	top:100px; }
+
+#atc { position:relative;
+       top:10px;
+       left:700px;
+       height:45px;
+       width:45px; }
+
+ul { list-style-type:none; }

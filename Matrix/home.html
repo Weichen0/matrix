@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="matrix.css">
+<link rel="icon" href="logo.png" type="image/x-icon">
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+<title>Matrix Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+
+<script type="text/javascript">
+    $(window).scroll(function() {
+        $('#he').css('left', $(this).scrollleft() + "px");
+    });
+</script>
+</head>
+
+<body>
+<div id="container">	
+	<div id="header" style="position:relative; width: 1920px; margin: 0 auto">
+		<img src="header.png" width="1920 height="187" alt="Matrix Header" align="middle" id="he">
+		<nav>
+			<ul>
+			<li><a href="home.html"><img src="homeicon.png"></a></li>
+			<li><a href="aboutus/aboutus.html"><img src="aboutusicon.png"></a></li>
+			<li><a href="products/product.html"><img src="producticon.png"></a><li>
+			<li><a href="cart.html"><img src="carticon.png"></a></li>
+			</ul>	
+		</nav>	
+	</div>
+</div>
+
+<bundle>
+<img src="pcbundle.png" width="1920" height="611" alt="PCbundle" >
+</bundle>
+<arena>
+<a href="products/keyboard/keyboard.html"><img src="razernew.jpg" ></a>
+<h1>LATEST PRODUCTS</h1>
+</arena>
+
+
+
+
+<div class="contactus" style="background-color:rgba(0, 0, 0, 0.5);">
+	<form method>
+	<h1 align="center">CONTACT US</h1>
+		<table border="0" cellpadding="5" >
+			<tr>
+			  <td>First Name: </td>
+			  <td><input type="text" name="fname" size="50" maxlength="30"></td>
+			</tr>
+			<tr>
+			  <td>Last Name: </td>
+			  <td><input type="text" name="lname"></td>
+			</tr>
+			<tr>
+			  <td>E-mail: </td>
+			  <td><input type="email" name="email" required></td>
+			</tr>
+			<tr>
+			  <td>Comments: </td>
+			  <td><textarea name="comments" id="comments" rows="4" cols="40" required></textarea></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			  <td><input type="submit" value="Submit" class="btn">&nbsp;<input type="reset" class="btn"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</div>
+</body>
+</html>
